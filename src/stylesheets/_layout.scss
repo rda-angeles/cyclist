@@ -1,0 +1,9 @@
+@import "./variables";
+.bg-secondary {
+  background-color: $c-secondary;
+}
+
+.container {
+  max-width: 100rem;
+  margin: auto;
+}
