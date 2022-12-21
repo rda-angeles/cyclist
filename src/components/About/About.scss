@@ -1,0 +1,18 @@
+@import "../../stylesheets/main.scss";
+
+.about__section {
+  height: 30vh;
+
+  .right-side {
+    margin-top: 2rem;
+    p {
+      margin-top: 1rem;
+    }
+  }
+  @include LargeScreen {
+    .right-side {
+      margin-left: 4rem;
+      margin-top: 0;
+    }
+  }
+}
