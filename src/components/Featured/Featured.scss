@@ -1,6 +1,6 @@
 @import "../../stylesheets/main.scss";
 .featured__section {
-  background-color: $c-secondary;
+  background-color: $c-primary;
   padding-bottom: 4rem;
 
   .featured-content {
@@ -16,8 +16,10 @@
     .cards {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       flex-wrap: wrap;
       width: 100%;
+
       @include MediumScreen {
         .card-wrapper {
           margin-top: 2rem;

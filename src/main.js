@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Featured from "./components/Featured/Featured";
 import MostViewed from "./components/Featured/MostViewed";
 import Footer from "./components/Footer/Footer";
+import Gallery from "./components/Gallery/Gallery";
 
 import {
   topRated,
@@ -12,6 +13,7 @@ import {
   mostViewed,
 } from "./components/Featured/FeaturedData";
 
+import { images } from "./components/Gallery/GalleryData";
 const App = () => {
   return (
     <>
@@ -23,6 +25,7 @@ const App = () => {
       <About />
       <Featured featured={topRated} />
       <MostViewed {...mostViewed} />
+      <Gallery images={images} />
       <Footer />
       {/* <Featured featured={topLuxury} /> */}
     </>

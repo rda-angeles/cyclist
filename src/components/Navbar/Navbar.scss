@@ -5,13 +5,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  // position: fixed;
+  position: fixed;
   z-index: 99;
   width: 100%;
-
-  // max-width: 100rem;
-  // left: 50%;
-  // transform: translateX(-50%);
+  max-width: 100rem;
+  left: 50%;
+  transform: translateX(-50%);
   
   .nav-logo {
     font-size: 3rem;
