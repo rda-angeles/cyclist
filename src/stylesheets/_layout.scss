@@ -81,3 +81,42 @@
     background-color: $c-tertiary;
   }
 }
+
+.card-wrapper {
+  background-color: $c-white;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 20rem;
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  margin-right: 2rem;
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+
+    .card-details {
+      margin-top: 2rem;
+      h3 {
+        font-size: 2rem;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          width: 2rem;
+          height: 0.15rem;
+          left: 0;
+          bottom: 0;
+          background-color: $c-secondary;
+        }
+      }
+      p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}

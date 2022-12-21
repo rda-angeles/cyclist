@@ -1,0 +1,10 @@
+@import "../../stylesheets/main.scss";
+
+.footer__section {
+  height: 4vh;
+  background-color: $c-primary;
+  color: $c-white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
