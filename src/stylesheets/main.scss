@@ -2,10 +2,8 @@
 @import "./typography";
 @import "./variables";
 @import "./layout";
+@import "./button";
 
-body {
-  background-color: $c-black;
-}
 * {
   padding: 0;
   margin: 0;

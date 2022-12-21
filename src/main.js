@@ -5,9 +5,9 @@ import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
-        {/* <Route path="/" element={<Hero />} /> */}
+        <Route path="/" element={<Hero />} />
       </Routes>
     </>
   );

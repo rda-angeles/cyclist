@@ -4,6 +4,15 @@ a {
   color: $c-white;
 }
 
+p {
+  font-family: $f-secondary;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 ul {
   li {
     list-style: none;

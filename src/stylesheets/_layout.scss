@@ -1,9 +1,23 @@
 @import "./variables";
+@import "./responsive";
 .bg-secondary {
-  background-color: $c-secondary;
+  background-color: $c-tertiary;
 }
 
 .container {
   max-width: 100rem;
   margin: auto;
+  padding: 2.5rem 2rem;
+}
+
+.left-side {
+  width: 100%;
+
+  @include LargeScreen {
+    max-width: 35%;
+  }
+
+  @include ExtraLargeScreen {
+    max-width: 35rem;
+  }
 }
